@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Wireless Battery Monitor</string>
+    <string name="title">Wireless Battery Monitor</string>
+    <string name="app_name">Wireless Battery Monitor</string>
+	<string name="start_button">Begin</string>
+	<string name="configure_button">Configure</string>
+	<string name="main_display_title">Wireless Battery Monitor - Main Display</string>
+    <string name="want_to_stop">Do you want to stop the Wireless Battery Monitor?</string>
+    <string name="email_support">Email Support</string>
+    <string name="please_update_prefs">Please update your preferences.</string>
+    <string name="device_doesnt_support_bt">device does not support bluetooth</string>
+
+    <!--  Bluetooth Messages -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No additional devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="pairing_msg">When connecting to a chest strap for the first time, you will be asked to pair with the device.  A notification will appear notification bar at the top of your Android device.  Click the notification and enter \'1234\'.</string>
+    
+    <!-- Options Menu -->
+    <string name="preferences">Preferences</string>
+    <string name="connect">Connect to monitor</string>
+    <string name="stop">Stop Monitor</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    <!-- Service Notifications -->
+    <string name="service_started">Wireless Battery Monitor running</string>
+    <string name="service_label">Wireless Battery Monitor</string>
+
+</resources>

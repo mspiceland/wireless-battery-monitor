@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wirelessbatterymonitorbackground" android:layout_gravity="center_horizontal"
+    >
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:paddingBottom="40dp"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFfF"
+    android:text="@string/title"
+    android:layout_gravity="center_horizontal"
+    />
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:text=" "
+    android:paddingBottom="40dp"
+    />
+<Button
+	android:id="@+id/start_button" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:background="@drawable/start_button"
+	
+	/>
+	
+</LinearLayout>

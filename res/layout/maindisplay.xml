@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wirelessbatterymonitorbackground" android:layout_gravity="center_horizontal"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/title"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/brushedstrip"
+    />
+
+<com.fuzzymonkey.wirelessbatterymonitor.view.SpeedometerView 
+	android:text="blah" 
+	android:id="@+id/speedometer" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"/>
+
+<TableLayout 
+	android:id="@+id/TableLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+	<!--  
+	<TableRow android:id="@+id/TableRow01">
+		<LinearLayout android:id="@+id/LinearLayout02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical">
+			<TextView android:id="@+id/speed_name" 
+				android:layout_height="wrap_content" 
+				android:text="Speed" 
+				android:textColor="#FFFFFF" 
+				android:textSize="8pt" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="2"></TextView>
+			<TextView android:id="@+id/TextView05" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF" 
+				android:layout_weight="2" 
+				android:textSize="6pt" 
+				android:text="mph"></TextView>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/speed_value" 
+			android:textSize="16pt" 
+			android:textColor="#FFFFFF" 
+			android:layout_weight="1" 
+			android:text="0.0">
+		</TextView>
+	
+		<LinearLayout android:id="@+id/LinearLayout02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical">
+			<TextView android:id="@+id/gpsspeed_name" 
+				android:layout_height="wrap_content" 
+				android:text="GPS Speed" 
+				android:textColor="#FFFFFF" 
+				android:textSize="8pt" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="2"></TextView>
+			<TextView android:id="@+id/TextView05" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF" 
+				android:layout_weight="2" 
+				android:textSize="6pt" 
+				android:text="mph"></TextView>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/gpsspeed_value" 
+			android:textSize="16pt" 
+			android:textColor="#FFFFFF" 
+			android:layout_weight="1" 
+			android:text="0.0">
+		</TextView>
+	</TableRow>
+	-->
+	
+	<TableRow android:id="@+id/TableRow03">
+		<LinearLayout android:id="@+id/LinearLayout02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical">
+			<TextView android:id="@+id/current_name" 
+				android:layout_height="wrap_content" 
+				android:text="Voltage" 
+				android:textColor="#FFFFFF" 
+				android:textSize="8pt" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="2"></TextView>
+			<TextView android:id="@+id/TextView05" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF" 
+				android:layout_weight="2" 
+				android:textSize="6pt" 
+				android:text="volts"></TextView>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/voltage_value" 
+			android:textSize="16pt" 
+			android:textColor="#FFFFFF" 
+			android:layout_weight="1" 
+			android:text="0.00">
+		</TextView>
+	
+		<LinearLayout android:id="@+id/LinearLayout02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical">
+			<TextView android:id="@+id/current_name" 
+				android:layout_height="wrap_content" 
+				android:text="Current" 
+				android:textColor="#FFFFFF" 
+				android:textSize="8pt" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="2"></TextView>
+			<TextView android:id="@+id/TextView05" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF" 
+				android:layout_weight="2" 
+				android:textSize="6pt" 
+				android:text="amps"></TextView>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/current_value" 
+			android:textSize="16pt" 
+			android:textColor="#FFFFFF" 
+			android:layout_weight="1" 
+			android:text="0.00">
+		</TextView>
+	</TableRow>
+	
+</TableLayout>
+    	
+    	<com.fuzzymonkey.wirelessbatterymonitor.view.BatteryView 
+		android:text="blah" 
+		android:id="@+id/battery" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"/>
+		
+		<ToggleButton android:id="@+id/gpstoggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="GPS on"
+        android:textOff="GPS off"/>
+		
+</LinearLayout>
