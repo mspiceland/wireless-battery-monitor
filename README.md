@@ -17,4 +17,6 @@ Current status: the prototype works, but is far from complete.
 
 ## Screenshot
 
-<insert screenshot here>
+![alt
+text](https://raw.github.com/mspiceland/wireless-battery-monitor/master/screenshot.png
+"example screenshot")
